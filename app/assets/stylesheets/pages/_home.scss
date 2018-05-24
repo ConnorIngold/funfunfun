@@ -1,0 +1,60 @@
+body{
+  margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+.background-color{
+  height: 100vh;
+  background-color: #58C081;
+}
+
+h1{
+  margin: 0px;
+}
+
+a{
+  color: white;
+}
+
+.navbar{
+  margin-right: 15%;
+  margin-left: 15%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar h3{
+  color: white;
+  font-family: 'Knewave', cursive;
+  font-size: 80px;
+}
+
+.navbar .container-fluid>.navbar-header {
+  float: right;
+  margin-right: 10px;
+}
+.navbar .navbar-nav {
+  float: right;
+  margin: 5px;
+}
+.nav>li {
+  float: right;
+}
+
+ul li{
+  display: inline;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: right;
+  font-size: 30px;
+  float: right;
+}
+
+.list-inline{
+  display: flex;
+}
